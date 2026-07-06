@@ -42,6 +42,8 @@ rm -rf feeds/packages/net/aria2
 rm -rf feeds/packages/net/nginx
 rm -rf feeds/packages/net/frp
 rm -rf feeds/packages/lang/golang
+rm -rf feeds/packages/qBittorrent-Enhanced-Edition
+rm -rf feeds/luci/applications/luci-app-adguardhome
 
 # Git稀疏克隆，只克隆指定目录到本地
 function git_sparse_clone() {
@@ -87,6 +89,40 @@ git clone --depth=1 https://github.com/laipeng668/luci-app-gecoosac package/luci
 git clone --depth=1 https://github.com/NONGFAH/luci-app-athena-led package/luci-app-athena-led
 chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app-athena-led/root/usr/sbin/athena-led
 
+
+
+#自己加的
+git clone --depth=1 https://github.com/sbwml/luci-app-qbittorrent.git package/luci-app-qbittorrent
+git clone --depth=1 https://github.com/ja16779/luci-app-cake-secondwan.git package/luci-app-cake-secondwan
+#git clone --depth=1 https://github.com/teleostnacl/luci-app-qbittorrent-static.git package/luci-app-qbittorrent-static
+git clone --depth=1 https://github.com/hudra0/luci-app-qosmate.git package/luci-app-qosmate
+git clone --depth=1 https://github.com/zouzonghao/luci-app-dufs.git package/luci-app-dufs
+git clone --depth=1 https://github.com/hudra0/qosmate.git package/qosmate
+git clone https://github.com/mossdef-org/luci-app-yaaw.git package/luci-app-yaaw
+git clone https://github.com/waynesg/luci-app-internet-detector.git package/luci-app-internet-detector
+git clone https://github.com/sbwml/luci-app-quickfile.git package/luci-app-quickfile
+git clone https://github.com/debugdoctor/luci-app-chinesecalendar.git package/luci-app-chinesecalendar
+git clone https://github.com/sbwml/luci-app-airconnect.git package/luci-app-airconnect
+git clone https://github.com/Natduki/luci-app-sqm-controller.git package/luci-app-sqm-controller
+git clone https://github.com/selfcan/luci-app-lanspeed.git package/luci-app-lanspeed
+git clone https://github.com/ssreekanth/luci-app-parentalcontrol.git package/luci-app-parentalcontrol
+git clone https://github.com/GxxkX/hostupdater.git package/hostupdater
+git clone https://github.com/choppyc79/luci-app-qosify.git package/luci-app-qosify
+git clone https://github.com/selfcan/luci-app-caddy-JS.git package/luci-app-caddy
+git clone https://github.com/caddyserver/caddy.git package/caddy
+git clone https://github.com/home16668/luci-app-quickfile-go.git package/luci-app-quickfile-go
+git clone https://github.com/AresDown/luci-app-parentcontrol.git package/luci-app-parentcontrol
+
+# adguardhome相关 #
+#git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-adguardhome
+#git clone https://github.com/OneNAS-space/luci-app-adguardhome.git package/luci-app-adguardhome
+#git clone https://github.com/OneNAS-space/adguardhome.git package/adguardhome
+#git clone https://github.com/MomoFlora/luci-app-adguardhome.git package/luci-app-adguardhome
+#git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-adguardhome
+#git clone https://github.com/w9315273/luci-app-adguardhome.git package/luci-app-adguardhome
+#git clone https://github.com/selfcan/luci-app-adguardhome-3.git package/luci-app-adguardhome
+git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/luci-app-adguardhome
+#git_sparse_clone master https://github.com/kenzok8/openwrt-packages adguardhome luci-app-adguardhome
 ### PassWall & OpenClash ###
 
 # 移除 OpenWrt Feeds 自带的核心库
