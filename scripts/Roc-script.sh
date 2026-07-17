@@ -124,7 +124,7 @@ git clone https://github.com/AresDown/luci-app-parentcontrol.git package/luci-ap
 git clone https://github.com/selfcan/luci-app-guest-wifi.git package/luci-app-guest-wifi
 
 # adguardhome相关 #
-#git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-adguardhome
+git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/OneNAS-space/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/OneNAS-space/adguardhome.git package/adguardhome
 #git clone https://github.com/MomoFlora/luci-app-adguardhome.git package/luci-app-adguardhome
