@@ -131,7 +131,7 @@ git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-
 #git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/w9315273/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/selfcan/luci-app-adguardhome-3.git package/luci-app-adguardhome
-git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/luci-app-adguardhome
+#git clone https://github.com/sirpdboy/luci-app-adguardhome.git package/luci-app-adguardhome
 #git_sparse_clone master https://github.com/kenzok8/openwrt-packages adguardhome luci-app-adguardhome
 ### PassWall & OpenClash ###
 
