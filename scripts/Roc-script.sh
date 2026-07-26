@@ -123,6 +123,7 @@ git clone https://github.com/home16668/luci-app-quickfile-go.git package/luci-ap
 git clone https://github.com/AresDown/luci-app-parentcontrol.git package/luci-app-parentcontrol
 git clone https://github.com/selfcan/luci-app-guest-wifi.git package/luci-app-guest-wifi
 git clone https://github.com/selfcan/luci-app-harbor-file.git package/luci-app-harbor-file
+git clone https://github.com/zhougb10/luci-app-device-access.git package/luci-app-device-access
 
 # adguardhome相关 #
 git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-adguardhome
