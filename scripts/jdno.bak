@@ -122,6 +122,7 @@ git clone https://github.com/caddyserver/caddy.git package/caddy
 git clone https://github.com/home16668/luci-app-quickfile-go.git package/luci-app-quickfile-go
 git clone https://github.com/AresDown/luci-app-parentcontrol.git package/luci-app-parentcontrol
 git clone https://github.com/selfcan/luci-app-guest-wifi.git package/luci-app-guest-wifi
+git clone https://github.com/selfcan/luci-app-harbor-file.git package/luci-app-harbor-file
 
 # adguardhome相关 #
 git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-adguardhome
