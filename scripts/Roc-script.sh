@@ -47,6 +47,8 @@ rm -rf feeds/packages/net/aria2
 rm -rf feeds/packages/net/nginx
 rm -rf feeds/packages/net/frp
 rm -rf feeds/packages/lang/golang
+rm -rf feeds/packages/qBittorrent-Enhanced-Edition
+rm -rf feeds/luci/applications/luci-app-adguardhome
 
 # Git稀疏克隆，只克隆指定目录到本地
 function git_sparse_clone() {
