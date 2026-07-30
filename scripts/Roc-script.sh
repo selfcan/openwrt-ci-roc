@@ -106,26 +106,26 @@ chmod +x package/luci-app-athena-led/root/etc/init.d/athena_led package/luci-app
 
 #自己加的
 git clone --depth=1 https://github.com/sbwml/luci-app-qbittorrent.git package/luci-app-qbittorrent
-git clone --depth=1 https://github.com/ja16779/luci-app-cake-secondwan.git package/luci-app-cake-secondwan
+#git clone --depth=1 https://github.com/ja16779/luci-app-cake-secondwan.git package/luci-app-cake-secondwan
 #git clone --depth=1 https://github.com/teleostnacl/luci-app-qbittorrent-static.git package/luci-app-qbittorrent-static
 git clone --depth=1 https://github.com/hudra0/luci-app-qosmate.git package/luci-app-qosmate
-git clone --depth=1 https://github.com/zouzonghao/luci-app-dufs.git package/luci-app-dufs
+#git clone --depth=1 https://github.com/zouzonghao/luci-app-dufs.git package/luci-app-dufs
 git clone --depth=1 https://github.com/hudra0/qosmate.git package/qosmate
-git clone https://github.com/mossdef-org/luci-app-yaaw.git package/luci-app-yaaw
+#git clone https://github.com/mossdef-org/luci-app-yaaw.git package/luci-app-yaaw
 git clone https://github.com/waynesg/luci-app-internet-detector.git package/luci-app-internet-detector
-git clone https://github.com/sbwml/luci-app-quickfile.git package/luci-app-quickfile
+#git clone https://github.com/sbwml/luci-app-quickfile.git package/luci-app-quickfile
 git clone https://github.com/debugdoctor/luci-app-chinesecalendar.git package/luci-app-chinesecalendar
 git clone https://github.com/sbwml/luci-app-airconnect.git package/luci-app-airconnect
 git clone https://github.com/Natduki/luci-app-sqm-controller.git package/luci-app-sqm-controller
-git clone https://github.com/selfcan/luci-app-lanspeed.git package/luci-app-lanspeed
+#git clone https://github.com/selfcan/luci-app-lanspeed.git package/luci-app-lanspeed
 git clone https://github.com/ssreekanth/luci-app-parentalcontrol.git package/luci-app-parentalcontrol
 git clone https://github.com/GxxkX/hostupdater.git package/hostupdater
 git clone https://github.com/choppyc79/luci-app-qosify.git package/luci-app-qosify
 git clone https://github.com/selfcan/luci-app-caddy-JS.git package/luci-app-caddy
 git clone https://github.com/caddyserver/caddy.git package/caddy
-git clone https://github.com/home16668/luci-app-quickfile-go.git package/luci-app-quickfile-go
+#git clone https://github.com/home16668/luci-app-quickfile-go.git package/luci-app-quickfile-go
 git clone https://github.com/AresDown/luci-app-parentcontrol.git package/luci-app-parentcontrol
-git clone https://github.com/selfcan/luci-app-guest-wifi.git package/luci-app-guest-wifi
+#git clone https://github.com/selfcan/luci-app-guest-wifi.git package/luci-app-guest-wifi
 git clone https://github.com/selfcan/luci-app-harbor-file.git package/luci-app-harbor-file
 git clone https://github.com/zhougb10/luci-app-device-access.git package/luci-app-device-access
 
