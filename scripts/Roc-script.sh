@@ -120,14 +120,14 @@ git clone https://github.com/Natduki/luci-app-sqm-controller.git package/luci-ap
 #git clone https://github.com/selfcan/luci-app-lanspeed.git package/luci-app-lanspeed
 git clone https://github.com/ssreekanth/luci-app-parentalcontrol.git package/luci-app-parentalcontrol
 git clone https://github.com/GxxkX/hostupdater.git package/hostupdater
-git clone https://github.com/choppyc79/luci-app-qosify.git package/luci-app-qosify
+#git clone https://github.com/choppyc79/luci-app-qosify.git package/luci-app-qosify
 git clone https://github.com/selfcan/luci-app-caddy-JS.git package/luci-app-caddy
 git clone https://github.com/caddyserver/caddy.git package/caddy
 #git clone https://github.com/home16668/luci-app-quickfile-go.git package/luci-app-quickfile-go
 git clone https://github.com/AresDown/luci-app-parentcontrol.git package/luci-app-parentcontrol
 #git clone https://github.com/selfcan/luci-app-guest-wifi.git package/luci-app-guest-wifi
 git clone https://github.com/selfcan/luci-app-harbor-file.git package/luci-app-harbor-file
-git clone https://github.com/zhougb10/luci-app-device-access.git package/luci-app-device-access
+#git clone https://github.com/zhougb10/luci-app-device-access.git package/luci-app-device-access
 git clone https://github.com/permails/luci-app-ariox.git package/luci-app-ariox
 git clone https://github.com/Canary233/luci-app-cnspeedtest.git package/luci-app-cnspeedtest
 git clone https://github.com/kenzok78/luci-app-easymesh.git package/luci-app-easymesh
