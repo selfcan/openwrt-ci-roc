@@ -131,6 +131,7 @@ git clone https://github.com/selfcan/luci-app-harbor-file.git package/luci-app-h
 git clone https://github.com/permails/luci-app-ariox.git package/luci-app-ariox
 git clone https://github.com/Canary233/luci-app-cnspeedtest.git package/luci-app-cnspeedtest
 git clone https://github.com/kenzok78/luci-app-easymesh.git package/luci-app-easymesh
+git clone https://github.com/selfcan/luci-app-videoplayer.git package/luci-app-videoplayer
 
 # adguardhome相关 #
 git clone https://github.com/kenzok78/luci-app-adguardhome.git package/luci-app-adguardhome
