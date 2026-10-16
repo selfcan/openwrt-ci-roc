@@ -217,6 +217,9 @@ if package_enabled luci-app-ddns ddns-scripts ddns-scripts-cloudflare; then
   git_sparse_clone master https://github.com/laipeng668/packages net/ddns-scripts
   mv package/ddns-scripts feeds/packages/net/ddns-scripts
 fi
+if package_enabled luci-app-mesh; then
+git_sparse_clone main https://github.com/selfcan/luci-app-mesh.git applications/luci-app-mesh
+fi
 if package_enabled luci-app-ddns; then
   rm -rf feeds/luci/applications/luci-app-ddns
   git_sparse_clone master https://github.com/laipeng668/luci applications/luci-app-ddns
